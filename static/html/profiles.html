@@ -26,7 +26,7 @@
 				{% else %}
 					<td>Dead</td>
 				{% end %}
-				<td>{{ " ".join(player.death.datetime.replace("T","+").split("+")[:2]) if player.death != None else "—" }}</tr>
+				<td>{{ " ".join(player.death.datetime.replace("T","+").split("+")[:2]) if player.death != None else "—" }}</td>
 			</tr>
 		{% end %}
 		</tbody>
